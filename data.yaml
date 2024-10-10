@@ -1,0 +1,332 @@
+Survey:
+  category: "0. Survey"
+  list:
+    - title: "Dynamic neural networks: A survey"
+      venue: "TPAMI"
+      year: "2022"
+      links:
+        PAGE: "https://ieeexplore.ieee.org/abstract/document/9560049"
+        PDF: "https://arxiv.org/pdf/2102.04906"
+    - title: "Adaptive inference through early-exit networks: Design, challenges and directions"
+      venue: "EMDL@MobiSys"
+      year: "2021"
+      links:
+        PAGE: "https://dl.acm.org/doi/abs/10.1145/3469116.3470012"
+        PDF: "https://arxiv.org/pdf/2106.05022"
+    - title: "Split computing and early exiting for deep learning applications: Survey and research challenges"
+      venue: "CSUR"
+      year: "2022"
+      links:
+        PAGE: "https://dl.acm.org/doi/full/10.1145/3527155"
+        PDF: "https://dl.acm.org/doi/pdf/10.1145/3527155"
+    - title: "Dynamic Neural Network Structure: A Review for Its Theories and Applications"
+      venue: "TNNLS"
+      year: "2024"
+      links:
+        PAGE: "https://ieeexplore.ieee.org/abstract/document/10492471"
+
+EEN Design:
+  category: "1. Architecture" 
+  list:
+  - title: "Multi-Scale Dense Networks for Resource Efficient Image Classification"
+    abbr: "MSDNet"
+    venue: "ICLR"
+    year: "2018"
+    links: 
+      PDF: "https://arxiv.org/pdf/1703.09844"
+  - title: "Unlocking the Non-deterministic Computing Power with Memory-Elastic Multi-Exit Neural Networks"
+    abbr: "MEEdge"
+    venue: "WWW"
+    year: "2024"
+    links:
+      PAGE: "https://dl.acm.org/doi/abs/10.1145/3589334.3645340"
+
+
+EEN Configuration:
+  category: "1. Architecture"
+  list:
+    - title: "HADAS: Hardware-Aware Dynamic Neural Architecture Search for Edge Performance Scaling"
+      abbr: "HADAS"
+      venue: "DATE"
+      year: "2023"
+      links: 
+        PAGE: "https://ieeexplore.ieee.org/abstract/document/10137095"
+    - title: "SLEXNet: Adaptive Inference Using Slimmable Early Exit Neural Networks"
+      abbr: "SLEXNet"
+      venue: "TECS"
+      year: "2024"
+      links: 
+        PAGE: "https://dl.acm.org/doi/full/10.1145/3689632"
+        PDF: "https://dl.acm.org/doi/pdf/10.1145/3689632"
+    - title: "Enabling Low Latency Edge Intelligence based on Multi-exit DNNs in the Wild"
+      abbr: "ME-DNN"
+      venue: "ICDCS"
+      year: "2021"
+      links:
+        PAGE: "https://ieeexplore.ieee.org/abstract/document/9546491"
+    - title: "HAPI: Hardware-Aware Progressive Inference"
+      abbr: "HAPI"
+      venue: "ICCAD"
+      year: "2020"
+      links:
+        PAGE: "https://dl.acm.org/doi/abs/10.1145/3400302.3415698"
+    - title: "FlexDNN: Input-Adaptive On-Device Deep Learning for Efficient Mobile Vision"
+      abbr: "FlexDNN"
+      venue: "SEC"
+      year: "2020"
+      links:
+        PAGE: "https://ieeexplore.ieee.org/abstract/document/9355785"
+    - title: "Multi-Exit Semantic Segmentation Networks"
+      abbr: "MESS"
+      venue: "ECCV"
+      year: "2022"
+      links:
+        PAGE: "https://link.springer.com/chapter/10.1007/978-3-031-19803-8_20"
+    
+
+   
+KD for Training:
+  category: "2. Training"
+  list:
+    - title: "Distillation-Based Training for Multi-Exit Architectures"
+      venue: "ICCV"
+      year: "2019"
+      links:
+        PAGE: "https://openaccess.thecvf.com/content_ICCV_2019/html/Phuong_Distillation-Based_Training_for_Multi-Exit_Architectures_ICCV_2019_paper.html"
+        PDF: "https://openaccess.thecvf.com/content_ICCV_2019/papers/Phuong_Distillation-Based_Training_for_Multi-Exit_Architectures_ICCV_2019_paper.pdf"
+    - title: "Harmornized Dense Knowledge Distiilation Training for Multi-Exit Architecture"
+      abbr: "HDKD"
+      venue: "AAAI"
+      year: "2021"
+      links:
+        PAGE: "https://ojs.aaai.org/index.php/AAAI/article/view/17225"
+        PDF: "https://ojs.aaai.org/index.php/AAAI/article/view/17225/17032"
+    - title: "Unlocking the Non-deterministic Computing Power with Memory-Elastic Multi-Exit Neural Networks"
+      abbr: "MEEdge"
+      venue: "WWW"
+      year: "2024"
+      links:
+        PAGE: "https://dl.acm.org/doi/abs/10.1145/3589334.3645340"
+    # - title: "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+    #   abbr: "DeeBERT"
+    #   venue: "ACL"
+    #   year: "2020"
+    #   links:
+    #     PAGE: "https://aclanthology.org/2020.acl-main.204/"
+    #     PDF: "https://aclanthology.org/2020.acl-main.204.pdf"
+    # - title: "GAML-BERT: Improving BERT Early Exiting by Gradient Aligned Mutual Learning"
+    #   abbr: "GAML-BERT"
+    #   venue: "EMNLP"
+    #   year: "2021"
+    #   links:
+    #     PAGE: "https://aclanthology.org/2021.emnlp-main.242/"
+    #     PDF: "https://aclanthology.org/2021.emnlp-main.242.pdf"
+
+Conflict among Exits:
+  category: "2. Training"
+  list:
+    - title: "Meta-GF: Training Dynamic-Depth Neural Networks Harmoniously"
+      abbr: "Meta-GF"
+      venue: "ECCV"
+      year: "2022"
+      links:
+        PAGE: "https://link.springer.com/chapter/10.1007/978-3-031-20083-0_41"
+        PDF: "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710691.pdf"
+        CODE: "https://github.com/SYVAE/MetaGF"
+    - title: "Deep Feature Surgery: Towards Accurate and Efficient Multi-Exit Networks"
+      abbr: "DFS"
+      venue: "ECCV"
+      year: "2024"
+      links:
+        PDF: "https://arxiv.org/pdf/2407.13986"
+
+Train-test Mismatch:
+  category: "2. Training"
+  list:
+    - title: "Boosted Dynamic Neural Networks"
+      abbr: "BoostNet"
+      venue: "AAAI"
+      year: "2023"
+      links:
+        PAGE: "https://ojs.aaai.org/index.php/AAAI/article/view/26302"
+        PDF: "https://ojs.aaai.org/index.php/AAAI/article/view/26302/26074"
+        CODE: "https://github.com/SHI-Labs/Boosted-Dynamic-Networks"
+    - title: "Learning to Weight Samples for Dynamic Early-exiting Networks"
+      abbr: "L2W-DEN"
+      venue: "ECCV"
+      year: "2022"
+      links:
+        PAGE: "https://dl.acm.org/doi/abs/10.1007/978-3-031-20083-0_22"
+        PDF: "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710363.pdf"
+    - title: "Jointly-learned Exit and Inference for a Dynamic Neural Network: JEI-DNN"
+      abbr: "JEI-DNN"
+      venue: "ICLR"
+      year: "2024"
+      links:
+        PAGE: "https://openreview.net/forum?id=jX2DT7qDam"
+        PDF: "https://openreview.net/pdf?id=jX2DT7qDam"
+        CODE: "https://github.com/networkslab/dynn"
+
+Training Efficiency:
+  category: "2. Training"
+  list:
+    - title: "Hierarchical Training of Deep Neural Networks Using Early Exiting"
+      venue: "TNNLS"
+      year: "2024"
+      links:
+        PAGE: "https://ieeexplore.ieee.org/abstract/document/10530344"
+    - title: "EE-LLM: Large-Scale Training and Inference of Early-Exit Large Language Models with 3D Parallelism"
+      abbr: "EE-LLM"
+      venue: "ICML"
+      year: "2024"
+      links:
+        PAGE: "https://openreview.net/forum?id=xFk0w9zoV3"
+        PDF: "https://openreview.net/pdf?id=xFk0w9zoV3"
+        CODE: "https://github.com/pan-x-c/EE-LLM"
+
+KD for Tuning:
+  category: "3. Tuning"
+  list:
+    - title: "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference"
+      abbr: "DeeBERT"
+      venue: "ACL"
+      year: "2020"
+      links:
+        PAGE: "https://aclanthology.org/2020.acl-main.204/"
+        PDF: "https://aclanthology.org/2020.acl-main.204.pdf"
+    - title: "GAML-BERT: Improving BERT Early Exiting by Gradient Aligned Mutual Learning"
+      abbr: "GAML-BERT"
+      venue: "EMNLP"
+      year: "2021"
+      links:
+        PAGE: "https://aclanthology.org/2021.emnlp-main.242/"
+        PDF: "https://aclanthology.org/2021.emnlp-main.242.pdf"
+    - title: "FastBERT: a Self-distilling BERT with Adaptive Inference Time"
+      abbr: "FastBERT"
+      venue: "ACL"
+      year: "2020"
+      links:
+        PAGE: "https://aclanthology.org/2020.acl-main.537/"
+  
+Test-time Adaptation:
+  category: "3. Tuning"
+  list:
+    - title: "Test-time Specialization of Dynamic Neural Networks"
+      venue: "CVPR Workshop"
+      year: "2024"
+      links:
+        PAGE: "https://openaccess.thecvf.com/content/CVPR2024W/MAT/html/Leroux_Test-time_Specialization_of_Dynamic_Neural_Networks_CVPRW_2024_paper.html"
+        PDF: "https://openaccess.thecvf.com/content/CVPR2024W/MAT/papers/Leroux_Test-time_Specialization_of_Dynamic_Neural_Networks_CVPRW_2024_paper.pdf"
+
+Tuning Efficiency:
+  category: "3. Tuning"
+  list:
+    - title: "EE-Tuning: An Economical yet Scalable Solution for Tuning Early-Exit Large Language Models"
+      venue: "arXiv"
+      year: "2024"
+      links:
+        PDF: "https://arxiv.org/pdf/2402.00518"
+
+Exit Policy:
+  category: "4. Inference"
+  list:
+    - title: "FrameExit: Conditional Early Exiting for Efﬁcient Video Recognition"
+      abbr: "FrameExit"
+      venue: "CVPR"
+      year: "2021"
+      links:
+        PAGE: "https://openaccess.thecvf.com/content/CVPR2021/html/Ghodrati_FrameExit_Conditional_Early_Exiting_for_Efficient_Video_Recognition_CVPR_2021_paper.html"
+        PDF: "https://openaccess.thecvf.com/content/CVPR2021/papers/Ghodrati_FrameExit_Conditional_Early_Exiting_for_Efficient_Video_Recognition_CVPR_2021_paper.pdf"
+    - title: "Shallow-Deep Networks: Understanding and Mitigating Network Overthinking"
+      abbr: "SDN"
+      venue: "ICML"
+      year: "2019"
+      links:
+        PAGE: "https://proceedings.mlr.press/v97/kaya19a.html"
+        PDF: "https://proceedings.mlr.press/v97/kaya19a/kaya19a.pdf"
+    - title: "Adaptive Neural Networks for Efficient Inference"
+      venue: "ICML"
+      year: "2017"
+      links:
+        PAGE: "https://proceedings.mlr.press/v70/bolukbasi17a.html"
+        PDF: "https://proceedings.mlr.press/v70/bolukbasi17a/bolukbasi17a.pdf"
+    - title: "Elastic DNN Inference with Unpredictable Exit in Edge Computing"
+      abbr: "EINet"
+      venue: "TMC"
+      year: "2024"
+      links:
+        PAGE: "https://ieeexplore.ieee.org/abstract/document/10633848"
+    - title: "Empowering Adaptive Early-Exit Inference with Latency Awareness"
+      venue: "AAAI"
+      year: "2021"
+      links:
+        PAGE: "https://ojs.aaai.org/index.php/AAAI/article/view/17181"
+    - title: "Scheduling Inputs in Early Exit Neural Networks"
+      venue: "TC"
+      year: "2023"
+      links:
+        PAGE: "https://ieeexplore.ieee.org/abstract/document/10324303"
+
+Exits Prediction:
+  category: "4. Inference"
+  list:
+    - title: "Predictive Exit: Prediction of Fine-Grained Early Exits for Computation- and Energy-Efficient Inference"
+      venue: "AAAI"
+      year: "2023"
+      links:
+        PAGE: "https://ojs.aaai.org/index.php/AAAI/article/view/26042"
+    - title: "FIANCEE: Faster Inference of Adversarial Networks via Conditional Early Exits"
+      abbr: "FIANCEE"
+      venue: "CVPR"
+      year: "2023"
+      links:
+        PAGE: "https://openaccess.thecvf.com/content/CVPR2023/html/Karpikova_FIANCEE_Faster_Inference_of_Adversarial_Networks_via_Conditional_Early_Exits_CVPR_2023_paper.html"
+        PDF: "https://openaccess.thecvf.com/content/CVPR2023/papers/Karpikova_FIANCEE_Faster_Inference_of_Adversarial_Networks_via_Conditional_Early_Exits_CVPR_2023_paper.pdf"
+
+Inference Ensemble:
+  category: "4. Inference"
+  list:
+    - title: "Boosted Dynamic Neural Networks"
+      abbr: "BoostNet"
+      venue: "AAAI"
+      year: "2023"
+      links:
+        PAGE: "https://ojs.aaai.org/index.php/AAAI/article/view/26302"
+        PDF: "https://ojs.aaai.org/index.php/AAAI/article/view/26302/26074"
+        CODE: "https://github.com/SHI-Labs/Boosted-Dynamic-Networks"
+    - title: "Towards Anytime Classification in Early-Exit Architectures by Enforcing Conditional Monotonicity"
+      venue: "NIPS"
+      year: "2023"
+      links:
+        PAGE: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/af2d9fb5bcee19ef2dfa70d843520c97-Abstract-Conference.html"
+        PDF: "https://proceedings.neurips.cc/paper_files/paper/2023/file/af2d9fb5bcee19ef2dfa70d843520c97-Paper-Conference.pdf"
+
+Inference Efficiency:
+  category: "4. Inference"
+  list:
+    - title: "Temporal Decisions: Leveraging Temporal Correlation for Efficient Decisions in Early Exit Neural Networks"
+      year: "2024"
+      links:
+        PAGE: "https://arxiv.org/abs/2403.07958"
+        PDF: "https://arxiv.org/pdf/2403.07958"
+    - title: "ClassyNet: Class-Aware Early-Exit Neural Networks for Edge Devices"
+      abbr: "ClassyNet"
+      venue: "IOTJ"
+      year: "2023"
+      links:
+        PAGE: "https://ieeexplore.ieee.org/abstract/document/10365527"
+    - title: "Unlocking the Non-deterministic Computing Power with Memory-Elastic Multi-Exit Neural Networks"
+      abbr: "MEEdge"
+      venue: "WWW"
+      year: "2024"
+      links:
+        PAGE: "https://dl.acm.org/doi/abs/10.1145/3589334.3645340"
+    - title: "EE-LLM: Large-Scale Training and Inference of Early-Exit Large Language Models with 3D Parallelism"
+      abbr: "EE-LLM"
+      venue: "ICML"
+      year: "2024"
+      links:
+        PAGE: "https://openreview.net/forum?id=xFk0w9zoV3"
+        PDF: "https://openreview.net/pdf?id=xFk0w9zoV3"
+        CODE: "https://github.com/pan-x-c/EE-LLM"
+
