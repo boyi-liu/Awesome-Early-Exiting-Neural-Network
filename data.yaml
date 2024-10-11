@@ -266,6 +266,12 @@ Exit Policy:
       year: "2023"
       links:
         PAGE: "https://ieeexplore.ieee.org/abstract/document/10324303"
+    - title: "EPNet: Learning to Exit with Flexible Multi-Branch Network"
+      abbr: "EPNet"
+      venue: "CIKM"
+      year: "2020"
+      links:
+        PAGE: "https://dl.acm.org/doi/abs/10.1145/3340531.3411973"
 
 Exits Prediction:
   category: "4. Inference"

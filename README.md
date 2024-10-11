@@ -104,6 +104,7 @@ A detailed mindmap of paper collected is illustrated as follow
 | Scheduling Inputs in Early Exit Neural Networks | N/A | TC | 2023 | [[PAGE](https://ieeexplore.ieee.org/abstract/document/10324303)] |
 | FrameExit: Conditional Early Exiting for Efﬁcient Video Recognition | FrameExit | CVPR | 2021 | [[PAGE](https://openaccess.thecvf.com/content/CVPR2021/html/Ghodrati_FrameExit_Conditional_Early_Exiting_for_Efficient_Video_Recognition_CVPR_2021_paper.html)] [[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Ghodrati_FrameExit_Conditional_Early_Exiting_for_Efficient_Video_Recognition_CVPR_2021_paper.pdf)] |
 | Empowering Adaptive Early-Exit Inference with Latency Awareness | N/A | AAAI | 2021 | [[PAGE](https://ojs.aaai.org/index.php/AAAI/article/view/17181)] |
+| EPNet: Learning to Exit with Flexible Multi-Branch Network | EPNet | CIKM | 2020 | [[PAGE](https://dl.acm.org/doi/abs/10.1145/3340531.3411973)] |
 | Shallow-Deep Networks: Understanding and Mitigating Network Overthinking | SDN | ICML | 2019 | [[PAGE](https://proceedings.mlr.press/v97/kaya19a.html)] [[PDF](https://proceedings.mlr.press/v97/kaya19a/kaya19a.pdf)] |
 | Adaptive Neural Networks for Efficient Inference | N/A | ICML | 2017 | [[PAGE](https://proceedings.mlr.press/v70/bolukbasi17a.html)] [[PDF](https://proceedings.mlr.press/v70/bolukbasi17a/bolukbasi17a.pdf)] |
 
@@ -127,13 +128,13 @@ A detailed mindmap of paper collected is illustrated as follow
 | EE-LLM: Large-Scale Training and Inference of Early-Exit Large Language Models with 3D Parallelism | EE-LLM | ICML | 2024 | [[PAGE](https://openreview.net/forum?id=xFk0w9zoV3)] [[PDF](https://openreview.net/pdf?id=xFk0w9zoV3)] [[CODE](https://github.com/pan-x-c/EE-LLM)] |
 | ClassyNet: Class-Aware Early-Exit Neural Networks for Edge Devices | ClassyNet | IOTJ | 2023 | [[PAGE](https://ieeexplore.ieee.org/abstract/document/10365527)] |
 
-37 papers are included
+38 papers are included
 
 <!-- main-end -->
 
  <!-- update-time-start -->
 
-**Last Update: Oct 09, 2024 00:10:59**
+**Last Update: Oct 11, 2024 19:38:22**
 
 <!-- update-time-end -->
 
