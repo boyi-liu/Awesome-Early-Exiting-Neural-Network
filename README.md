@@ -39,6 +39,7 @@ A detailed mindmap of paper collected is illustrated as follow
 | Title | Abbreviation | Venue | Year | Materials |
 |----------|----|----|----|----|
 | Unlocking the Non-deterministic Computing Power with Memory-Elastic Multi-Exit Neural Networks | MEEdge | WWW | 2024 | [[PAGE](https://dl.acm.org/doi/abs/10.1145/3589334.3645340)] |
+| Resolution Adaptive Networks for Efficient Inference | RANet | CVPR | 2020 | [[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_Resolution_Adaptive_Networks_for_Efficient_Inference_CVPR_2020_paper.pdf)] |
 | Multi-Scale Dense Networks for Resource Efficient Image Classification | MSDNet | ICLR | 2018 | [[PDF](https://arxiv.org/pdf/1703.09844)] |
 
 ### EEN Configuration
@@ -63,6 +64,7 @@ A detailed mindmap of paper collected is illustrated as follow
 | Title | Abbreviation | Venue | Year | Materials |
 |----------|----|----|----|----|
 | Deep Feature Surgery: Towards Accurate and Efficient Multi-Exit Networks | DFS | ECCV | 2024 | [[PDF](https://arxiv.org/pdf/2407.13986)] |
+| Early Exit with Disentangled Representation and Equiangular Tight Frame | DREE | ACL | 2023 | [[PDF](https://aclanthology.org/2023.findings-acl.889.pdf)] [[CODE](https://github.com/Jikai0Wang/DREE)] |
 | Meta-GF: Training Dynamic-Depth Neural Networks Harmoniously | Meta-GF | ECCV | 2022 | [[PAGE](https://link.springer.com/chapter/10.1007/978-3-031-20083-0_41)] [[PDF](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710691.pdf)] [[CODE](https://github.com/SYVAE/MetaGF)] |
 
 ### Train-test Mismatch
@@ -128,13 +130,13 @@ A detailed mindmap of paper collected is illustrated as follow
 | EE-LLM: Large-Scale Training and Inference of Early-Exit Large Language Models with 3D Parallelism | EE-LLM | ICML | 2024 | [[PAGE](https://openreview.net/forum?id=xFk0w9zoV3)] [[PDF](https://openreview.net/pdf?id=xFk0w9zoV3)] [[CODE](https://github.com/pan-x-c/EE-LLM)] |
 | ClassyNet: Class-Aware Early-Exit Neural Networks for Edge Devices | ClassyNet | IOTJ | 2023 | [[PAGE](https://ieeexplore.ieee.org/abstract/document/10365527)] |
 
-38 papers are included
+40 papers are included
 
 <!-- main-end -->
 
  <!-- update-time-start -->
 
-**Last Update: Oct 11, 2024 19:38:22**
+**Last Update: Oct 14, 2024 20:47:37**
 
 <!-- update-time-end -->
 

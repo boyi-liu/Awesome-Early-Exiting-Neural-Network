@@ -40,6 +40,12 @@ EEN Design:
     year: "2024"
     links:
       PAGE: "https://dl.acm.org/doi/abs/10.1145/3589334.3645340"
+  - title: "Resolution Adaptive Networks for Efficient Inference"
+    abbr: "RANet"
+    venue: "CVPR"
+    year: "2020"
+    links:
+      PDF: "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_Resolution_Adaptive_Networks_for_Efficient_Inference_CVPR_2020_paper.pdf"
 
 
 EEN Configuration:
@@ -133,6 +139,13 @@ Conflict among Exits:
         PAGE: "https://link.springer.com/chapter/10.1007/978-3-031-20083-0_41"
         PDF: "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710691.pdf"
         CODE: "https://github.com/SYVAE/MetaGF"
+    - title: "Early Exit with Disentangled Representation and Equiangular Tight Frame"
+      abbr: "DREE"
+      venue: "ACL"
+      year: "2023"
+      links:
+        PDF: "https://aclanthology.org/2023.findings-acl.889.pdf"
+        CODE: "https://github.com/Jikai0Wang/DREE"
     - title: "Deep Feature Surgery: Towards Accurate and Efficient Multi-Exit Networks"
       abbr: "DFS"
       venue: "ECCV"
